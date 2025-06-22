@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'DOCKER_IMAGE = 'dexter7371/hunts-point-pos'
-        DOCKER_CREDENTIALS_ID = 'dockerhub-creds-id' // updated credential ID
+        DOCKER_IMAGE = 'dexter7371/hunts-point-pos'   // ✅ your Docker Hub repo
+        DOCKER_CREDENTIALS_ID = 'dockerhub-creds-id'  // ✅ Jenkins credentials ID
     }
 
     stages {
