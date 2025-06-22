@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'dexter73710/hunts-point-pos'
+        DOCKER_IMAGE = 'DOCKER_IMAGE = 'dexter7371/hunts-point-pos'
         DOCKER_CREDENTIALS_ID = 'dockerhub-creds-id' // updated credential ID
     }
 
